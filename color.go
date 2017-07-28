@@ -3,6 +3,7 @@ package color
 var colorList map[string]string
 
 func init() {
+	colorList = make(map[string]string, 0)
 	colorList["black"] = "#000000"
 	colorList["silver"] = "#c0c0c0"
 	colorList["gray"] = "#808080"
